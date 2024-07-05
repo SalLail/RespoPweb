@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../images/bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 50px; /* Ensure there's enough space for the footer */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1em;
+    text-align: center;
+}
+
+header img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline;
+    margin: 0;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.anime-grid, .anime-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.anime-grid div, .anime-list div {
+    text-align: center;
+    width: 200px;
+}
+
+.anime-grid img, .anime-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
